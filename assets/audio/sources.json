@@ -1,0 +1,49 @@
+{
+  "assets": [
+    {
+      "key": "music.main",
+      "source": {
+        "providedBy": "user",
+        "retained": false,
+        "originalBytes": 3551237,
+        "originalSha256": "27019703422bf28c0a687f88a777041cc8dd24422a300efa1952b8599c583c5e",
+        "authorship": "not confirmed",
+        "license": "not confirmed",
+        "format": "MP3",
+        "sampleRateHz": 48000,
+        "channels": 2,
+        "bitrateKbps": 128,
+        "durationSeconds": 164.821333,
+        "attachedCover": "MJPEG"
+      },
+      "derived": {
+        "path": "public/assets/audio/camino.mp3",
+        "bytes": 2638201,
+        "sha256": "154da7fee65ad033f03c4bdfccdcc09b6f1f0e065a428927f7feb90183049852",
+        "format": "MP3",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "bitrateKbps": 128,
+        "durationSeconds": 164.821338,
+        "integratedLoudnessLUFS": -18.45,
+        "truePeakDBTP": -3.24
+      },
+      "transformation": {
+        "tool": "ffmpeg 8.0.1",
+        "arguments": [
+          "-map 0:a:0",
+          "-vn",
+          "-map_metadata -1",
+          "-af volume=-2.3dB",
+          "-ar 44100",
+          "-ac 2",
+          "-c:a libmp3lame",
+          "-b:a 128k"
+        ],
+        "trimmed": false,
+        "removedAttachedCover": true,
+        "removedMetadata": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "nota": "IoU de silueta nuevo=1 por construccion: se calca el alfa. No demuestra calidad artistica.",
+  "metodo": "Interiores manuales por regiones/curvas/parches; RGB fuente no entra en dibujar().",
+  "fuente": {
+    "bbox": [
+      13,
+      2,
+      50,
+      62
+    ],
+    "colores": 984,
+    "pixeles_opacos": 1531,
+    "silueta_iou": 1.0,
+    "pixeles_silueta_distintos": 0,
+    "regiones": {
+      "piel_cara": {
+        "pixeles": 75,
+        "bbox": [
+          35,
+          15,
+          45,
+          32
+        ],
+        "centro": [
+          40.653,
+          24.533
+        ],
+        "error_centro_px": 0.0
+      },
+      "mano": {
+        "pixeles": 7,
+        "bbox": [
+          32,
+          47,
+          36,
+          49
+        ],
+        "centro": [
+          33.714,
+          47.429
+        ],
+        "error_centro_px": 0.0
+      },
+      "sueter": {
+        "pixeles": 155,
+        "bbox": [
+          26,
+          32,
+          42,
+          47
+        ],
+        "centro": [
+          35.181,
+          40.168
+        ],
+        "error_centro_px": 0.0
+      }
+    }
+  },
+  "anterior": {
+    "bbox": [
+      13,
+      2,
+      50,
+      62
+    ],
+    "colores": 23,
+    "pixeles_opacos": 1524,
+    "silueta_iou": 0.92866,
+    "pixeles_silueta_distintos": 113,
+    "regiones": {
+      "piel_cara": {
+        "pixeles": 66,
+        "bbox": [
+          36,
+          16,
+          46,
+          32
+        ],
+        "centro": [
+          41.076,
+          24.53
+        ],
+        "error_centro_px": 0.423
+      },
+      "mano": {
+        "pixeles": 8,
+        "bbox": [
+          31,
+          47,
+          35,
+          49
+        ],
+        "centro": [
+          32.5,
+          47.5
+        ],
+        "error_centro_px": 1.216
+      },
+      "sueter": {
+        "pixeles": 149,
+        "bbox": [
+          28,
+          32,
+          42,
+          47
+        ],
+        "centro": [
+          35.128,
+          39.221
+        ],
+        "error_centro_px": 0.948
+      }
+    }
+  },
+  "nuevo": {
+    "bbox": [
+      13,
+      2,
+      50,
+      62
+    ],
+    "colores": 23,
+    "pixeles_opacos": 1531,
+    "silueta_iou": 1.0,
+    "pixeles_silueta_distintos": 0,
+    "regiones": {
+      "piel_cara": {
+        "pixeles": 70,
+        "bbox": [
+          36,
+          15,
+          45,
+          32
+        ],
+        "centro": [
+          40.957,
+          24.543
+        ],
+        "error_centro_px": 0.304
+      },
+      "mano": {
+        "pixeles": 7,
+        "bbox": [
+          32,
+          47,
+          36,
+          49
+        ],
+        "centro": [
+          33.714,
+          47.429
+        ],
+        "error_centro_px": 0.0
+      },
+      "sueter": {
+        "pixeles": 154,
+        "bbox": [
+          26,
+          32,
+          42,
+          47
+        ],
+        "centro": [
+          35.156,
+          40.208
+        ],
+        "error_centro_px": 0.047
+      }
+    }
+  },
+  "control_automatico": {
+    "bbox": [
+      13,
+      2,
+      50,
+      62
+    ],
+    "colores": 26,
+    "pixeles_opacos": 1531,
+    "silueta_iou": 1.0,
+    "pixeles_silueta_distintos": 0,
+    "regiones": {
+      "piel_cara": {
+        "pixeles": 74,
+        "bbox": [
+          35,
+          15,
+          45,
+          32
+        ],
+        "centro": [
+          40.662,
+          24.635
+        ],
+        "error_centro_px": 0.102
+      },
+      "mano": {
+        "pixeles": 7,
+        "bbox": [
+          32,
+          47,
+          36,
+          49
+        ],
+        "centro": [
+          33.714,
+          47.429
+        ],
+        "error_centro_px": 0.0
+      },
+      "sueter": {
+        "pixeles": 153,
+        "bbox": [
+          26,
+          32,
+          42,
+          47
+        ],
+        "centro": [
+          35.203,
+          40.17
+        ],
+        "error_centro_px": 0.022
+      }
+    }
+  },
+  "nuevo_vs_control_pixeles_rgb_distintos": 651,
+  "limites": "Clasificacion de regiones por umbrales iguales, no evaluacion perceptual. Puede variar con el sombreado. Sin prueba de animacion o navegador.",
+  "integridad": {
+    "archivos_protegidos": 36,
+    "resultado": "PASS"
+  },
+  "formato": {
+    "dimensiones": [
+      64,
+      64
+    ],
+    "modo": "RGBA",
+    "alfa": [
+      0,
+      255
+    ],
+    "paleta_frontal": "PASS"
+  },
+  "retoque_solicitado": {
+    "pixeles_modificados": 124,
+    "fuera_de_sueter_zapatos": 0,
+    "cabeza_cara_pantalon_mano_conservados": "PASS",
+    "base_sha256": "d7387fd62d2824970ec84807faa52542b38fba58516153738cb35d74ce8889d9"
+  }
+}

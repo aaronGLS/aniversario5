@@ -1,0 +1,227 @@
+{
+  "schemaVersion": 1,
+  "designVersion": "2.0.1",
+  "title": "A cinco pasos de ti",
+  "locale": "es",
+  "stack": {
+    "language": "JavaScript ES modules + JSDoc",
+    "phaser": "3.90.0",
+    "renderer": "CANVAS",
+    "viteMajor": 8,
+    "nodeMinimum": "22.12.0",
+    "packageManager": "npm"
+  },
+  "viewport": {
+    "width": 480,
+    "height": 270,
+    "tile": 16,
+    "maxDisplayScale": 2,
+    "cameraLead": 176,
+    "cameraY": 0
+  },
+  "physics": {
+    "speed": 145,
+    "gravity": 650,
+    "jumpVelocity": -255,
+    "fixedFps": 60,
+    "coyoteMs": 100,
+    "jumpBufferMs": 120,
+    "maxFallSpeed": 500,
+    "killFeetY": 320,
+    "worldBottomCollision": false
+  },
+  "player": {
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "originX": 0.5,
+    "originY": 0.96875,
+    "anchorX": 32,
+    "anchorY": 62,
+    "bodyWidth": 18,
+    "bodyHeight": 36,
+    "bodyOffsetX": 23,
+    "bodyOffsetY": 26,
+    "displayScale": 1,
+    "defaultFacing": "right",
+    "flower": false
+  },
+  "animation": {
+    "idleFrames": 4,
+    "idleDurationsMs": [
+      400,
+      400,
+      400,
+      400
+    ],
+    "runFrames": 8,
+    "runFrameMs": 70,
+    "airFrames": 9,
+    "airFrameMs": 85,
+    "mirrorLeft": true
+  },
+  "aaron": {
+    "idleFrames": 8,
+    "idleFrameMs": 150,
+    "originX": 0.5,
+    "originY": 0.96875,
+    "displayScale": 1
+  },
+  "timing": {
+    "levelFadeOutMs": 150,
+    "levelFadeInMs": 150,
+    "levelTitleMs": 1200,
+    "respawnFadeOutMs": 120,
+    "respawnHoldMs": 80,
+    "respawnFadeInMs": 120,
+    "hintMs": 5000,
+    "reducedFadeMs": 0
+  },
+  "ending": {
+    "groundY": 224,
+    "aurianaStartX": 164,
+    "aurianaEndX": 220,
+    "aaronX": 260,
+    "walkMs": 700,
+    "settleMs": 250,
+    "lightMs": 300,
+    "heartMs": 600,
+    "dedicationMs": 250,
+    "veilOpacity": 0.28,
+    "halo": {
+      "width": 160,
+      "height": 128,
+      "x": 240,
+      "y": 184,
+      "pixelSize": 4,
+      "maxOpacity": 0.14
+    },
+    "heart": {
+      "width": 8,
+      "height": 8,
+      "scale": 2,
+      "startY": 140,
+      "endY": 130
+    }
+  },
+  "audio": {
+    "musicGain": 0.25,
+    "endingMusicGain": 0.18,
+    "sfxGain": 0.1,
+    "fadeMs": 200,
+    "defaultMuted": false,
+    "voiceEnabled": false,
+    "bpm": 92,
+    "musicMaxBytes": 3000000,
+    "musicBars": 32
+  },
+  "save": {
+    "key": "acinco5.save.v1",
+    "prefsKey": "acinco5.prefs.v1",
+    "version": 1,
+    "storage": "localStorage with in-memory fallback"
+  },
+  "ui": {
+    "desktopHeaderPx": 48,
+    "touchHeaderPx": 44,
+    "touchButtonPx": 56,
+    "touchJumpWidthPx": 88,
+    "touchFooterPx": 72,
+    "minTextPx": 16,
+    "safePaddingPx": 12,
+    "cornerRadiusPx": 2,
+    "hintRowPx": 24,
+    "minAuxTextPx": 14
+  },
+  "palette": {
+    "page": "#172522",
+    "panel": "#273832",
+    "text": "#FFF2DD",
+    "secondary": "#CCD7C7",
+    "accent": "#D9B3D3",
+    "accentText": "#302339",
+    "focus": "#F3CA83"
+  },
+  "scope": {
+    "levels": 5,
+    "enemies": false,
+    "movingPlatforms": false,
+    "collectibles": false,
+    "voice": false,
+    "backend": false,
+    "analytics": false,
+    "serviceWorker": false,
+    "fullscreen": false,
+    "dateLock": false,
+    "skipToEnding": true
+  },
+  "environment": {
+    "atlasKey": "environment.main",
+    "atlasSize": 1024,
+    "atlasPadding": 2,
+    "chunkWidth": 1024,
+    "terrainTopY": 192,
+    "terrainRenderHeight": 80,
+    "maxDecorations": 32,
+    "maxDisplayObjects": 80,
+    "maxTextureBytes": 8388608,
+    "maxPngBytes": 1048576,
+    "backgroundLayers": [
+      "back",
+      "far",
+      "near"
+    ],
+    "backgroundScrollFactors": [
+      0,
+      0.1,
+      0.25
+    ],
+    "depth": {
+      "background": -30,
+      "terrain": 0,
+      "decorations": 1,
+      "markers": 2,
+      "player": 3
+    },
+    "lanternCrop": [
+      272,
+      320,
+      16,
+      16
+    ],
+    "lanternScale": 2,
+    "inactiveLampBrightness": 0.55,
+    "pedestalHeight": 16,
+    "themes": [
+      {
+        "id": "level-1",
+        "family": "woods",
+        "tone": "#C8D8F0",
+        "mix": 0.12
+      },
+      {
+        "id": "level-2",
+        "family": "tall-forest",
+        "tone": "#8878AF",
+        "mix": 0.18
+      },
+      {
+        "id": "level-3",
+        "family": "woods",
+        "tone": "#A998C8",
+        "mix": 0.2
+      },
+      {
+        "id": "level-4",
+        "family": "tall-forest",
+        "tone": "#D79BB6",
+        "mix": 0.25
+      },
+      {
+        "id": "level-5",
+        "family": "woods",
+        "tone": "#F3B89C",
+        "mix": 0.32
+      }
+    ]
+  }
+}

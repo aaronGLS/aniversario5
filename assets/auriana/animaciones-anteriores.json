@@ -1,0 +1,73 @@
+{
+  "description": "Animaciones activas antes de importar Una_adorable_chica_chibi_en.zip. PNG y fuentes conservados en sus rutas originales.",
+  "animation": {
+    "idleFrames": 6,
+    "idleDurationsMs": [
+      1300,
+      350,
+      600,
+      100,
+      110,
+      700
+    ],
+    "runFrames": 4,
+    "runFrameMs": 140,
+    "airFrames": 1,
+    "mirrorLeft": true
+  },
+  "assets": [
+    {
+      "key": "auriana.idle",
+      "path": "sprites/auriana-idle-right.png",
+      "type": "spritesheet",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "frames": 6,
+      "sheetWidth": 384,
+      "sheetHeight": 64,
+      "sourceFrames": [
+        "assets/auriana/frames/reposo/derecha/frame_000.png",
+        "assets/auriana/frames/reposo/derecha/frame_001.png",
+        "assets/auriana/frames/reposo/derecha/frame_002.png",
+        "assets/auriana/frames/reposo/derecha/frame_003.png",
+        "assets/auriana/frames/reposo/derecha/frame_004.png",
+        "assets/auriana/frames/reposo/derecha/frame_005.png"
+      ],
+      "requiredForRelease": true,
+      "ready": true,
+      "status": "integrated-existing"
+    },
+    {
+      "key": "auriana.run",
+      "path": "sprites/auriana-run-right.png",
+      "type": "spritesheet",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "frames": 4,
+      "sheetWidth": 256,
+      "sheetHeight": 64,
+      "sourceFrames": [
+        "assets/auriana/frames/correr/derecha/frame_000.png",
+        "assets/auriana/frames/correr/derecha/frame_001.png",
+        "assets/auriana/frames/correr/derecha/frame_002.png",
+        "assets/auriana/frames/correr/derecha/frame_003.png"
+      ],
+      "requiredForRelease": true,
+      "ready": true,
+      "status": "integrated-existing"
+    },
+    {
+      "key": "auriana.air",
+      "path": "sprites/auriana-air-right.png",
+      "type": "image",
+      "width": 64,
+      "height": 64,
+      "sourceFrames": [
+        "assets/auriana/frames/saltar/derecha/frame_002.png"
+      ],
+      "requiredForRelease": true,
+      "ready": true,
+      "status": "integrated-existing"
+    }
+  ]
+}

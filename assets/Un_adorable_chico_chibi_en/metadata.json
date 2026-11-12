@@ -1,0 +1,59 @@
+{
+  "group_id": "29741210-724f-4fd7-9b27-4a30cce311cb",
+  "states": [
+    {
+      "character": {
+        "id": "9d84c9a7-b4ac-441b-b3c2-4df1313fba96",
+        "name": "Idle",
+        "prompt": "Un adorable chico chibi en estilo pixel art 2D, con cabeza ligeramente grande, cuerpo peque\u00f1o y proporciones tiernas. Tiene piel clara de tono melocot\u00f3n c\u00e1lido, ojos grandes y expresivos de color marr\u00f3n oscuro, mejillas ligeramente sonrojadas y una peque\u00f1a sonrisa dulce y tranquila.\n\nSu cabello es corto, abundante y ligeramente despeinado, de color casta\u00f1o chocolate muy oscuro, con mechones suaves y definidos que caen ligeramente sobre la frente. Tiene un peinado juvenil y natural, con volumen moderado en la parte superior y peque\u00f1os mechones hacia los lados.\n\nViste un su\u00e9ter oversized de color azul gris\u00e1ceo suave, con cuello redondo, mangas ligeramente holgadas, pu\u00f1os y cintura acanalados. Lleva pantalones largos de color azul marino muy oscuro y zapatillas blancas con peque\u00f1os detalles azul lavanda.\n\nEl estilo art\u00edstico es cozy pixel art, con contornos oscuros bien definidos, sombreado suave, colores pastel y p\u00edxeles n\u00edtidos. Debe mantener las mismas proporciones corporales, nivel de detalle, t\u00e9cnica de sombreado y est\u00e9tica visual que el personaje femenino de referencia, formando una pareja visualmente armoniosa.\n\nEl personaje aparece de cuerpo completo, de pie, mirando directamente hacia el frente, con ambos brazos relajados a sus lados y una postura neutral y sim\u00e9trica. Fondo transparente, sin sombras exteriores, accesorios ni elementos decorativos.",
+        "size": {
+          "width": 64,
+          "height": 64
+        },
+        "template_id": "mannequin",
+        "directions": 8,
+        "view": "low top-down",
+        "created_at": "2026-11-11T21:03:17.781143+00:00"
+      },
+      "folder": "Idle",
+      "frames": {
+        "rotations": {
+          "south": "Idle/rotations/south.png",
+          "south-east": "Idle/rotations/south-east.png",
+          "east": "Idle/rotations/east.png",
+          "north-east": "Idle/rotations/north-east.png",
+          "north": "Idle/rotations/north.png",
+          "north-west": "Idle/rotations/north-west.png",
+          "west": "Idle/rotations/west.png",
+          "south-west": "Idle/rotations/south-west.png"
+        },
+        "animations": {
+          "Idle": {
+            "east": [
+              "Idle/animations/Idle/east/frame_000.png",
+              "Idle/animations/Idle/east/frame_001.png",
+              "Idle/animations/Idle/east/frame_002.png",
+              "Idle/animations/Idle/east/frame_003.png",
+              "Idle/animations/Idle/east/frame_004.png",
+              "Idle/animations/Idle/east/frame_005.png",
+              "Idle/animations/Idle/east/frame_006.png",
+              "Idle/animations/Idle/east/frame_007.png"
+            ],
+            "west": [
+              "Idle/animations/Idle/west/frame_000.png",
+              "Idle/animations/Idle/west/frame_001.png",
+              "Idle/animations/Idle/west/frame_002.png",
+              "Idle/animations/Idle/west/frame_003.png",
+              "Idle/animations/Idle/west/frame_004.png",
+              "Idle/animations/Idle/west/frame_005.png",
+              "Idle/animations/Idle/west/frame_006.png",
+              "Idle/animations/Idle/west/frame_007.png"
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "export_version": "3.1",
+  "export_date": "2026-11-11T23:03:50.564394"
+}

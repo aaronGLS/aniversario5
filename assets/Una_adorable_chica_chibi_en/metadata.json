@@ -1,0 +1,157 @@
+{
+  "group_id": "27402133-0efe-4fc8-bf57-ad6a9e2fc9fc",
+  "states": [
+    {
+      "character": {
+        "id": "07da1988-0e71-46a4-88ba-8a09caa0504b",
+        "name": "Idle",
+        "prompt": "Una adorable chica chibi en estilo pixel art 2D, con cabeza ligeramente grande, cuerpo peque\u00f1o y proporciones tiernas. Tiene piel clara de tono melocot\u00f3n, ojos grandes y expresivos de color marr\u00f3n oscuro, mejillas sonrojadas y una peque\u00f1a sonrisa dulce.\n\nSu cabello es muy largo, abundante y ondulado, de color casta\u00f1o chocolate oscuro, con flequillo ligeramente despeinado y mechones que caen a ambos lados del rostro. Lleva una peque\u00f1a flor blanca de centro amarillo anaranjado en el lado izquierdo de su cabeza (a la derecha del espectador).\n\nViste un su\u00e9ter oversized color lavanda, con cuello alto, pu\u00f1os y cintura acanalados, pantalones cortos de color morado muy oscuro y zapatillas blancas con detalles lilas.\n\nEl estilo art\u00edstico es cozy pixel art, con contornos oscuros bien definidos, sombreado suave, colores pastel y p\u00edxeles n\u00edtidos. El personaje aparece de cuerpo completo, de pie, mirando directamente hacia el frente, con ambos brazos relajados a sus lados y una postura neutral y sim\u00e9trica. Fondo transparente, sin sombras exteriores ni elementos decorativos.",
+        "size": {
+          "width": 64,
+          "height": 64
+        },
+        "template_id": "mannequin",
+        "directions": 8,
+        "view": "low top-down",
+        "created_at": "2026-11-11T08:29:31.773646+00:00"
+      },
+      "folder": "Idle",
+      "frames": {
+        "rotations": {
+          "south": "Idle/rotations/south.png",
+          "south-east": "Idle/rotations/south-east.png",
+          "east": "Idle/rotations/east.png",
+          "north-east": "Idle/rotations/north-east.png",
+          "north": "Idle/rotations/north.png",
+          "north-west": "Idle/rotations/north-west.png",
+          "west": "Idle/rotations/west.png",
+          "south-west": "Idle/rotations/south-west.png"
+        },
+        "animations": {
+          "Breathing_Idle": {
+            "west": [
+              "Idle/animations/Breathing_Idle/west/frame_000.png",
+              "Idle/animations/Breathing_Idle/west/frame_001.png",
+              "Idle/animations/Breathing_Idle/west/frame_002.png",
+              "Idle/animations/Breathing_Idle/west/frame_003.png"
+            ],
+            "east": [
+              "Idle/animations/Breathing_Idle/east/frame_000.png",
+              "Idle/animations/Breathing_Idle/east/frame_001.png",
+              "Idle/animations/Breathing_Idle/east/frame_002.png",
+              "Idle/animations/Breathing_Idle/east/frame_003.png"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "character": {
+        "id": "415579a7-ef4f-420f-8596-f6388c3e522c",
+        "name": "Run",
+        "prompt": "Una adorable chica chibi en estilo pixel art 2D, con cabeza ligeramente grande, cuerpo peque\u00f1o y proporciones tiernas. Tiene piel clara de tono melocot\u00f3n, ojos grandes y expresivos de color marr\u00f3n oscuro, mejillas sonrojadas y una peque\u00f1a sonrisa dulce.\n\nSu cabello es muy largo, abundante y ondulado, de color casta\u00f1o chocolate oscuro, con flequillo ligeramente despeinado y mechones que caen a ambos lados del rostro. Lleva una peque\u00f1a flor blanca de centro amarillo anaranjado en el lado izquierdo de su cabeza (a la derecha del espectador).\n\nViste un su\u00e9ter oversized color lavanda, con cuello alto, pu\u00f1os y cintura acanalados, pantalones cortos de color morado muy oscuro y zapatillas blancas con detalles lilas.\n\nEl estilo art\u00edstico es cozy pixel art, con contornos oscuros bien definidos, sombreado suave, colores pastel y p\u00edxeles n\u00edtidos. El personaje aparece de cuerpo completo, de pie, mirando directamente hacia el frente, con ambos brazos relajados a sus lados y una postura neutral y sim\u00e9trica. Fondo transparente, sin sombras exteriores ni elementos decorativos.",
+        "size": {
+          "width": 64,
+          "height": 64
+        },
+        "template_id": "mannequin",
+        "directions": 8,
+        "view": "low top-down",
+        "created_at": "2026-11-11T08:52:18.362908+00:00"
+      },
+      "folder": "Run",
+      "frames": {
+        "rotations": {
+          "south": "Run/rotations/south.png",
+          "south-east": "Run/rotations/south-east.png",
+          "east": "Run/rotations/east.png",
+          "north-east": "Run/rotations/north-east.png",
+          "north": "Run/rotations/north.png",
+          "north-west": "Run/rotations/north-west.png",
+          "west": "Run/rotations/west.png",
+          "south-west": "Run/rotations/south-west.png"
+        },
+        "animations": {
+          "Running": {
+            "east": [
+              "Run/animations/Running/east/frame_000.png",
+              "Run/animations/Running/east/frame_001.png",
+              "Run/animations/Running/east/frame_002.png",
+              "Run/animations/Running/east/frame_003.png",
+              "Run/animations/Running/east/frame_004.png",
+              "Run/animations/Running/east/frame_005.png",
+              "Run/animations/Running/east/frame_006.png",
+              "Run/animations/Running/east/frame_007.png"
+            ],
+            "west": [
+              "Run/animations/Running/west/frame_000.png",
+              "Run/animations/Running/west/frame_001.png",
+              "Run/animations/Running/west/frame_002.png",
+              "Run/animations/Running/west/frame_003.png",
+              "Run/animations/Running/west/frame_004.png",
+              "Run/animations/Running/west/frame_005.png",
+              "Run/animations/Running/west/frame_006.png",
+              "Run/animations/Running/west/frame_007.png"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "character": {
+        "id": "66c0cf60-4381-49c1-bad6-d2b34471eaa3",
+        "name": "Jumping",
+        "prompt": "Una adorable chica chibi en estilo pixel art 2D, con cabeza ligeramente grande, cuerpo peque\u00f1o y proporciones tiernas. Tiene piel clara de tono melocot\u00f3n, ojos grandes y expresivos de color marr\u00f3n oscuro, mejillas sonrojadas y una peque\u00f1a sonrisa dulce.\n\nSu cabello es muy largo, abundante y ondulado, de color casta\u00f1o chocolate oscuro, con flequillo ligeramente despeinado y mechones que caen a ambos lados del rostro. Lleva una peque\u00f1a flor blanca de centro amarillo anaranjado en el lado izquierdo de su cabeza (a la derecha del espectador).\n\nViste un su\u00e9ter oversized color lavanda, con cuello alto, pu\u00f1os y cintura acanalados, pantalones cortos de color morado muy oscuro y zapatillas blancas con detalles lilas.\n\nEl estilo art\u00edstico es cozy pixel art, con contornos oscuros bien definidos, sombreado suave, colores pastel y p\u00edxeles n\u00edtidos. El personaje aparece de cuerpo completo, de pie, mirando directamente hacia el frente, con ambos brazos relajados a sus lados y una postura neutral y sim\u00e9trica. Fondo transparente, sin sombras exteriores ni elementos decorativos.",
+        "size": {
+          "width": 64,
+          "height": 64
+        },
+        "template_id": "mannequin",
+        "directions": 8,
+        "view": "low top-down",
+        "created_at": "2026-11-11T09:07:11.404330+00:00"
+      },
+      "folder": "Jumping",
+      "frames": {
+        "rotations": {
+          "south": "Jumping/rotations/south.png",
+          "south-east": "Jumping/rotations/south-east.png",
+          "east": "Jumping/rotations/east.png",
+          "north-east": "Jumping/rotations/north-east.png",
+          "north": "Jumping/rotations/north.png",
+          "north-west": "Jumping/rotations/north-west.png",
+          "west": "Jumping/rotations/west.png",
+          "south-west": "Jumping/rotations/south-west.png"
+        },
+        "animations": {
+          "Bend_knees_slightly_to_prepare_for_a_jump_then_pus": {
+            "west": [
+              "Jumping/animations/Bend_knees_slightly_to_prepare_for_a_jump_then_pus/west/frame_000.png",
+              "Jumping/animations/Bend_knees_slightly_to_prepare_for_a_jump_then_pus/west/frame_001.png",
+              "Jumping/animations/Bend_knees_slightly_to_prepare_for_a_jump_then_pus/west/frame_002.png",
+              "Jumping/animations/Bend_knees_slightly_to_prepare_for_a_jump_then_pus/west/frame_003.png",
+              "Jumping/animations/Bend_knees_slightly_to_prepare_for_a_jump_then_pus/west/frame_004.png",
+              "Jumping/animations/Bend_knees_slightly_to_prepare_for_a_jump_then_pus/west/frame_005.png",
+              "Jumping/animations/Bend_knees_slightly_to_prepare_for_a_jump_then_pus/west/frame_006.png",
+              "Jumping/animations/Bend_knees_slightly_to_prepare_for_a_jump_then_pus/west/frame_007.png",
+              "Jumping/animations/Bend_knees_slightly_to_prepare_for_a_jump_then_pus/west/frame_008.png"
+            ],
+            "east": [
+              "Jumping/animations/Bend_knees_slightly_to_prepare_for_a_jump_then_pus/east/frame_000.png",
+              "Jumping/animations/Bend_knees_slightly_to_prepare_for_a_jump_then_pus/east/frame_001.png",
+              "Jumping/animations/Bend_knees_slightly_to_prepare_for_a_jump_then_pus/east/frame_002.png",
+              "Jumping/animations/Bend_knees_slightly_to_prepare_for_a_jump_then_pus/east/frame_003.png",
+              "Jumping/animations/Bend_knees_slightly_to_prepare_for_a_jump_then_pus/east/frame_004.png",
+              "Jumping/animations/Bend_knees_slightly_to_prepare_for_a_jump_then_pus/east/frame_005.png",
+              "Jumping/animations/Bend_knees_slightly_to_prepare_for_a_jump_then_pus/east/frame_006.png",
+              "Jumping/animations/Bend_knees_slightly_to_prepare_for_a_jump_then_pus/east/frame_007.png",
+              "Jumping/animations/Bend_knees_slightly_to_prepare_for_a_jump_then_pus/east/frame_008.png"
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "export_version": "3.1",
+  "export_date": "2026-11-11T20:38:19.746885"
+}

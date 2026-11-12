@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="description" content="Un pequeño camino para reencontrarnos." />
+    <meta name="theme-color" content="#172522" />
+    <title>A cinco pasos de ti</title>
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="preload" href="./assets/fonts/pixelify-sans.ttf" as="font" type="font/ttf" crossorigin />
+  </head>
+  <body>
+    <main id="app" class="app-shell">
+      <p id="prototype-label" class="prototype-label" hidden></p>
+      <p id="storage-notice" class="storage-notice" role="status" hidden></p>
+      <p id="sound-notice" class="sound-notice" role="status" hidden></p>
+      <header id="intro" class="intro">
+        <div class="title-illustration" aria-hidden="true"></div>
+        <h1 id="title"></h1>
+        <p id="subtitle"></p>
+        <div class="title-actions">
+          <button id="start-button" type="button" disabled></button>
+          <button id="continue-button" type="button" hidden></button>
+          <button id="view-ending-button" type="button" hidden></button>
+          <button id="new-game-button" type="button" hidden></button>
+          <button id="sound-button" class="sound-button" type="button" aria-pressed="false" hidden></button>
+        </div>
+        <progress id="loading-progress" max="1" value="0"></progress>
+        <p id="title-help" class="help-text"></p>
+      </header>
+
+      <section id="game-panel" class="game-panel" aria-label="" hidden inert>
+        <div class="game-hud">
+          <div id="step-progress">
+            <p id="step-status" class="hud-step"></p>
+            <div id="step-dots" class="step-dots" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+          </div>
+          <button id="pause-button" class="pause-button" type="button"></button>
+        </div>
+        <div class="status-band">
+          <p id="game-status" class="hud-status"></p>
+          <p id="status-reserve" class="hud-status" aria-hidden="true"></p>
+        </div>
+        <p id="rotate-hint" class="rotate-hint" hidden></p>
+        <div id="play-layout" class="play-layout">
+          <div id="landscape-left" class="landscape-rail" hidden></div>
+        <div
+          id="game-container"
+          class="game-container"
+          tabindex="0"
+          role="application"
+          aria-label=""
+          aria-describedby="game-hint"
+        >
+        </div>
+        <div id="touch-controls" class="touch-controls" hidden>
+          <div class="directions"><button id="left-button" class="game-control" data-action="left" type="button"><svg aria-hidden="true" viewBox="0 0 16 16"><path d="M8 2H6v2H4v2H2v4h2v2h2v2h2v-4h6V6H8z" /></svg></button><button id="right-button" class="game-control" data-action="right" type="button"><svg aria-hidden="true" viewBox="0 0 16 16"><path d="M8 2h2v2h2v2h2v4h-2v2h-2v2H8v-4H2V6h6z" /></svg></button></div>
+          <button id="jump-button" class="game-control" data-action="jump" type="button"></button>
+        </div>
+          <div id="landscape-right" class="landscape-rail" hidden></div>
+        </div>
+        <p id="live-status" class="visually-hidden" aria-live="polite"></p>
+        <p id="game-hint" class="visually-hidden"></p>
+      </section>
+
+      <section id="ending-panel" class="ending-panel" hidden inert>
+        <h2 id="ending-heading" tabindex="-1" hidden></h2>
+        <p id="ending-body" hidden></p>
+        <p id="ending-love" class="ending-love" hidden></p>
+        <p id="ending-signature" class="ending-signature" hidden></p>
+        <button id="replay-button" type="button" hidden></button>
+      </section>
+
+      <dialog id="pause-dialog" class="pause-dialog" aria-labelledby="dialog-title" aria-describedby="dialog-body">
+        <h2 id="dialog-title"></h2>
+        <p id="dialog-body"></p>
+        <div id="pause-menu" class="dialog-actions">
+          <p id="pause-help"></p>
+          <button id="resume-button" type="button"></button>
+          <button id="restart-button" type="button"></button>
+          <button id="skip-button" type="button"></button>
+          <button id="back-button" type="button"></button>
+          <label class="preference"><input id="reduce-effects" type="checkbox" /> <span id="reduce-effects-label"></span></label>
+        </div>
+        <div id="confirmation-menu" class="dialog-actions" hidden inert>
+          <button id="confirm-button" type="button"></button>
+          <button id="cancel-button" type="button"></button>
+        </div>
+      </dialog>
+    </main>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,34 @@
+[
+  {
+    "file": "referencias/auriana-derecha-sin-flor.png",
+    "source": "perfil_derecho_sin_flor.png",
+    "role": "Autoridad de identidad. Referencia grande; no es un sprite de juego.",
+    "dimensions": [
+      759,
+      1236
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "bytes": 634891,
+    "sha256": "027ff0a6ea614e3eb837222018044e34d1ef4f286e2d9d339a91c2529351e497",
+    "productionReady": false
+  },
+  {
+    "file": "referencias/carrera-8-referencia.png",
+    "source": "a_clean_high_contrast_pixel_art_spritesheet_on_a.png",
+    "role": "Referencia de movimiento. No es una tira recortable de producción.",
+    "dimensions": [
+      2172,
+      724
+    ],
+    "alphaExtrema": [
+      255,
+      255
+    ],
+    "bytes": 1130148,
+    "sha256": "39bc8113c2943ce8856a5a5046bc6fd6c19722163887e9a58a1aa9c25f0a26dc",
+    "productionReady": false
+  }
+]

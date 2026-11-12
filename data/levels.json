@@ -1,0 +1,964 @@
+[
+  {
+    "id": 1,
+    "name": "El primer paso",
+    "width": 3072,
+    "height": 400,
+    "palette": {
+      "sky": "#1E2749",
+      "far": "#303458",
+      "near": "#6B5E89"
+    },
+    "spawn": {
+      "x": 64,
+      "feetY": 224,
+      "supportId": "p1-s0"
+    },
+    "checkpoint": {
+      "id": 1,
+      "x": 1536,
+      "feetY": 224,
+      "supportId": "p1-s4"
+    },
+    "goal": {
+      "kind": "next",
+      "x": 3008,
+      "feetY": 224,
+      "width": 32,
+      "height": 48,
+      "supportId": "p1-s6"
+    },
+    "aaron": null,
+    "surfaces": [
+      {
+        "id": "p1-s0",
+        "x": 0,
+        "y": 224,
+        "width": 512,
+        "height": 176
+      },
+      {
+        "id": "p1-s1",
+        "x": 512,
+        "y": 208,
+        "width": 128,
+        "height": 192
+      },
+      {
+        "id": "p1-s2",
+        "x": 640,
+        "y": 224,
+        "width": 640,
+        "height": 176
+      },
+      {
+        "id": "p1-s3",
+        "x": 1280,
+        "y": 208,
+        "width": 128,
+        "height": 192
+      },
+      {
+        "id": "p1-s4",
+        "x": 1408,
+        "y": 224,
+        "width": 896,
+        "height": 176
+      },
+      {
+        "id": "p1-s5",
+        "x": 2304,
+        "y": 208,
+        "width": 128,
+        "height": 192
+      },
+      {
+        "id": "p1-s6",
+        "x": 2432,
+        "y": 224,
+        "width": 640,
+        "height": 176
+      }
+    ],
+    "environmentId": "level-1",
+    "decorations": [
+      {
+        "frame": "prop.shrooms",
+        "x": 224,
+        "feetY": 224,
+        "flipX": false
+      },
+      {
+        "frame": "prop.bush",
+        "x": 384,
+        "feetY": 224,
+        "flipX": false
+      },
+      {
+        "frame": "prop.tree",
+        "x": 384,
+        "feetY": 224,
+        "flipX": false
+      },
+      {
+        "frame": "prop.shrooms",
+        "x": 576,
+        "feetY": 208,
+        "flipX": false
+      },
+      {
+        "frame": "prop.bush",
+        "x": 704,
+        "feetY": 224,
+        "flipX": false
+      },
+      {
+        "frame": "prop.rock",
+        "x": 864,
+        "feetY": 224,
+        "flipX": false
+      },
+      {
+        "frame": "prop.tree",
+        "x": 896,
+        "feetY": 224,
+        "flipX": true
+      },
+      {
+        "frame": "prop.shrooms",
+        "x": 1024,
+        "feetY": 224,
+        "flipX": false
+      },
+      {
+        "frame": "prop.bush",
+        "x": 1184,
+        "feetY": 224,
+        "flipX": false
+      },
+      {
+        "frame": "prop.rock",
+        "x": 1344,
+        "feetY": 208,
+        "flipX": false
+      },
+      {
+        "frame": "prop.bush",
+        "x": 1632,
+        "feetY": 224,
+        "flipX": false
+      },
+      {
+        "frame": "prop.rock",
+        "x": 1792,
+        "feetY": 224,
+        "flipX": false
+      },
+      {
+        "frame": "prop.tree",
+        "x": 1920,
+        "feetY": 224,
+        "flipX": true
+      },
+      {
+        "frame": "prop.shrooms",
+        "x": 1952,
+        "feetY": 224,
+        "flipX": false
+      },
+      {
+        "frame": "prop.bush",
+        "x": 2112,
+        "feetY": 224,
+        "flipX": false
+      },
+      {
+        "frame": "prop.bush",
+        "x": 2368,
+        "feetY": 208,
+        "flipX": false
+      },
+      {
+        "frame": "prop.rock",
+        "x": 2496,
+        "feetY": 224,
+        "flipX": false
+      },
+      {
+        "frame": "prop.shrooms",
+        "x": 2656,
+        "feetY": 224,
+        "flipX": false
+      },
+      {
+        "frame": "prop.bush",
+        "x": 2816,
+        "feetY": 224,
+        "flipX": false
+      },
+      {
+        "frame": "prop.sign",
+        "x": 2896,
+        "feetY": 224,
+        "flipX": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Sin miedo a saltar",
+    "width": 3072,
+    "height": 400,
+    "palette": {
+      "sky": "#232A4B",
+      "far": "#3D3A62",
+      "near": "#817099"
+    },
+    "spawn": {
+      "x": 64,
+      "feetY": 224,
+      "supportId": "p2-s0"
+    },
+    "checkpoint": {
+      "id": 1,
+      "x": 1536,
+      "feetY": 224,
+      "supportId": "p2-s2"
+    },
+    "goal": {
+      "kind": "next",
+      "x": 3008,
+      "feetY": 224,
+      "width": 32,
+      "height": 48,
+      "supportId": "p2-s4"
+    },
+    "aaron": null,
+    "surfaces": [
+      {
+        "id": "p2-s0",
+        "x": 0,
+        "y": 224,
+        "width": 544,
+        "height": 176
+      },
+      {
+        "id": "p2-s1",
+        "x": 576,
+        "y": 224,
+        "width": 544,
+        "height": 176
+      },
+      {
+        "id": "p2-s2",
+        "x": 1152,
+        "y": 224,
+        "width": 640,
+        "height": 176
+      },
+      {
+        "id": "p2-s3",
+        "x": 1824,
+        "y": 224,
+        "width": 544,
+        "height": 176
+      },
+      {
+        "id": "p2-s4",
+        "x": 2400,
+        "y": 224,
+        "width": 672,
+        "height": 176
+      }
+    ],
+    "environmentId": "level-2",
+    "decorations": [
+      {
+        "frame": "prop.bush",
+        "x": 224,
+        "feetY": 224,
+        "flipX": false
+      },
+      {
+        "frame": "prop.rock",
+        "x": 384,
+        "feetY": 224,
+        "flipX": false
+      },
+      {
+        "frame": "prop.tree",
+        "x": 384,
+        "feetY": 224,
+        "flipX": false
+      },
+      {
+        "frame": "prop.bush",
+        "x": 640,
+        "feetY": 224,
+        "flipX": false
+      },
+      {
+        "frame": "prop.rock",
+        "x": 800,
+        "feetY": 224,
+        "flipX": false
+      },
+      {
+        "frame": "prop.tree",
+        "x": 896,
+        "feetY": 224,
+        "flipX": true
+      },
+      {
+        "frame": "prop.shrooms",
+        "x": 960,
+        "feetY": 224,
+        "flipX": false
+      },
+      {
+        "frame": "prop.rock",
+        "x": 1216,
+        "feetY": 224,
+        "flipX": false
+      },
+      {
+        "frame": "prop.shrooms",
+        "x": 1376,
+        "feetY": 224,
+        "flipX": false
+      },
+      {
+        "frame": "prop.tree",
+        "x": 1408,
+        "feetY": 224,
+        "flipX": false
+      },
+      {
+        "frame": "prop.rock",
+        "x": 1696,
+        "feetY": 224,
+        "flipX": false
+      },
+      {
+        "frame": "prop.shrooms",
+        "x": 1888,
+        "feetY": 224,
+        "flipX": false
+      },
+      {
+        "frame": "prop.tree",
+        "x": 1920,
+        "feetY": 224,
+        "flipX": true
+      },
+      {
+        "frame": "prop.bush",
+        "x": 2048,
+        "feetY": 224,
+        "flipX": false
+      },
+      {
+        "frame": "prop.rock",
+        "x": 2208,
+        "feetY": 224,
+        "flipX": false
+      },
+      {
+        "frame": "prop.bush",
+        "x": 2464,
+        "feetY": 224,
+        "flipX": false
+      },
+      {
+        "frame": "prop.rock",
+        "x": 2624,
+        "feetY": 224,
+        "flipX": false
+      },
+      {
+        "frame": "prop.shrooms",
+        "x": 2784,
+        "feetY": 224,
+        "flipX": false
+      },
+      {
+        "frame": "prop.sign",
+        "x": 2896,
+        "feetY": 224,
+        "flipX": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Cada vez más cerca",
+    "width": 3072,
+    "height": 400,
+    "palette": {
+      "sky": "#282A4C",
+      "far": "#4B3C66",
+      "near": "#987CA0"
+    },
+    "spawn": {
+      "x": 64,
+      "feetY": 224,
+      "supportId": "p3-s0"
+    },
+    "checkpoint": {
+      "id": 1,
+      "x": 1536,
+      "feetY": 192,
+      "supportId": "p3-s2"
+    },
+    "goal": {
+      "kind": "next",
+      "x": 3008,
+      "feetY": 224,
+      "width": 32,
+      "height": 48,
+      "supportId": "p3-s4"
+    },
+    "aaron": null,
+    "surfaces": [
+      {
+        "id": "p3-s0",
+        "x": 0,
+        "y": 224,
+        "width": 512,
+        "height": 176
+      },
+      {
+        "id": "p3-s1",
+        "x": 544,
+        "y": 208,
+        "width": 576,
+        "height": 192
+      },
+      {
+        "id": "p3-s2",
+        "x": 1152,
+        "y": 192,
+        "width": 640,
+        "height": 208
+      },
+      {
+        "id": "p3-s3",
+        "x": 1824,
+        "y": 208,
+        "width": 576,
+        "height": 192
+      },
+      {
+        "id": "p3-s4",
+        "x": 2432,
+        "y": 224,
+        "width": 640,
+        "height": 176
+      }
+    ],
+    "environmentId": "level-3",
+    "decorations": [
+      {
+        "frame": "prop.rock",
+        "x": 224,
+        "feetY": 224,
+        "flipX": false
+      },
+      {
+        "frame": "prop.shrooms",
+        "x": 384,
+        "feetY": 224,
+        "flipX": false
+      },
+      {
+        "frame": "prop.tree",
+        "x": 384,
+        "feetY": 224,
+        "flipX": false
+      },
+      {
+        "frame": "prop.rock",
+        "x": 608,
+        "feetY": 208,
+        "flipX": false
+      },
+      {
+        "frame": "prop.shrooms",
+        "x": 768,
+        "feetY": 208,
+        "flipX": false
+      },
+      {
+        "frame": "prop.tree",
+        "x": 896,
+        "feetY": 208,
+        "flipX": true
+      },
+      {
+        "frame": "prop.bush",
+        "x": 928,
+        "feetY": 208,
+        "flipX": false
+      },
+      {
+        "frame": "prop.shrooms",
+        "x": 1216,
+        "feetY": 192,
+        "flipX": false
+      },
+      {
+        "frame": "prop.bush",
+        "x": 1376,
+        "feetY": 192,
+        "flipX": false
+      },
+      {
+        "frame": "prop.tree",
+        "x": 1408,
+        "feetY": 192,
+        "flipX": false
+      },
+      {
+        "frame": "prop.shrooms",
+        "x": 1696,
+        "feetY": 192,
+        "flipX": false
+      },
+      {
+        "frame": "prop.bush",
+        "x": 1888,
+        "feetY": 208,
+        "flipX": false
+      },
+      {
+        "frame": "prop.tree",
+        "x": 1920,
+        "feetY": 208,
+        "flipX": true
+      },
+      {
+        "frame": "prop.rock",
+        "x": 2048,
+        "feetY": 208,
+        "flipX": false
+      },
+      {
+        "frame": "prop.shrooms",
+        "x": 2208,
+        "feetY": 208,
+        "flipX": false
+      },
+      {
+        "frame": "prop.rock",
+        "x": 2496,
+        "feetY": 224,
+        "flipX": false
+      },
+      {
+        "frame": "prop.shrooms",
+        "x": 2656,
+        "feetY": 224,
+        "flipX": false
+      },
+      {
+        "frame": "prop.bush",
+        "x": 2816,
+        "feetY": 224,
+        "flipX": false
+      },
+      {
+        "frame": "prop.sign",
+        "x": 2896,
+        "feetY": 224,
+        "flipX": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Aunque el camino cambie",
+    "width": 3072,
+    "height": 400,
+    "palette": {
+      "sky": "#302945",
+      "far": "#63446F",
+      "near": "#B38AA5"
+    },
+    "spawn": {
+      "x": 64,
+      "feetY": 224,
+      "supportId": "p4-s0"
+    },
+    "checkpoint": {
+      "id": 1,
+      "x": 1536,
+      "feetY": 224,
+      "supportId": "p4-s4"
+    },
+    "goal": {
+      "kind": "next",
+      "x": 3008,
+      "feetY": 224,
+      "width": 32,
+      "height": 48,
+      "supportId": "p4-s8"
+    },
+    "aaron": null,
+    "surfaces": [
+      {
+        "id": "p4-s0",
+        "x": 0,
+        "y": 224,
+        "width": 288,
+        "height": 176
+      },
+      {
+        "id": "p4-s1",
+        "x": 328,
+        "y": 208,
+        "width": 288,
+        "height": 192
+      },
+      {
+        "id": "p4-s2",
+        "x": 656,
+        "y": 224,
+        "width": 320,
+        "height": 176
+      },
+      {
+        "id": "p4-s3",
+        "x": 1016,
+        "y": 208,
+        "width": 288,
+        "height": 192
+      },
+      {
+        "id": "p4-s4",
+        "x": 1344,
+        "y": 224,
+        "width": 384,
+        "height": 176
+      },
+      {
+        "id": "p4-s5",
+        "x": 1768,
+        "y": 208,
+        "width": 288,
+        "height": 192
+      },
+      {
+        "id": "p4-s6",
+        "x": 2096,
+        "y": 224,
+        "width": 320,
+        "height": 176
+      },
+      {
+        "id": "p4-s7",
+        "x": 2456,
+        "y": 208,
+        "width": 288,
+        "height": 192
+      },
+      {
+        "id": "p4-s8",
+        "x": 2784,
+        "y": 224,
+        "width": 288,
+        "height": 176
+      }
+    ],
+    "environmentId": "level-4",
+    "decorations": [
+      {
+        "frame": "prop.shrooms",
+        "x": 224,
+        "feetY": 224,
+        "flipX": false
+      },
+      {
+        "frame": "prop.tree",
+        "x": 384,
+        "feetY": 208,
+        "flipX": false
+      },
+      {
+        "frame": "prop.shrooms",
+        "x": 392,
+        "feetY": 208,
+        "flipX": false
+      },
+      {
+        "frame": "prop.bush",
+        "x": 552,
+        "feetY": 208,
+        "flipX": false
+      },
+      {
+        "frame": "prop.bush",
+        "x": 720,
+        "feetY": 224,
+        "flipX": false
+      },
+      {
+        "frame": "prop.rock",
+        "x": 880,
+        "feetY": 224,
+        "flipX": false
+      },
+      {
+        "frame": "prop.tree",
+        "x": 896,
+        "feetY": 224,
+        "flipX": true
+      },
+      {
+        "frame": "prop.rock",
+        "x": 1080,
+        "feetY": 208,
+        "flipX": false
+      },
+      {
+        "frame": "prop.shrooms",
+        "x": 1240,
+        "feetY": 208,
+        "flipX": false
+      },
+      {
+        "frame": "prop.shrooms",
+        "x": 1408,
+        "feetY": 224,
+        "flipX": false
+      },
+      {
+        "frame": "prop.tree",
+        "x": 1408,
+        "feetY": 224,
+        "flipX": false
+      },
+      {
+        "frame": "prop.bush",
+        "x": 1832,
+        "feetY": 208,
+        "flipX": false
+      },
+      {
+        "frame": "prop.tree",
+        "x": 1920,
+        "feetY": 208,
+        "flipX": true
+      },
+      {
+        "frame": "prop.rock",
+        "x": 1992,
+        "feetY": 208,
+        "flipX": false
+      },
+      {
+        "frame": "prop.rock",
+        "x": 2160,
+        "feetY": 224,
+        "flipX": false
+      },
+      {
+        "frame": "prop.shrooms",
+        "x": 2320,
+        "feetY": 224,
+        "flipX": false
+      },
+      {
+        "frame": "prop.shrooms",
+        "x": 2520,
+        "feetY": 208,
+        "flipX": false
+      },
+      {
+        "frame": "prop.bush",
+        "x": 2680,
+        "feetY": 208,
+        "flipX": false
+      },
+      {
+        "frame": "prop.bush",
+        "x": 2848,
+        "feetY": 224,
+        "flipX": false
+      },
+      {
+        "frame": "prop.sign",
+        "x": 2896,
+        "feetY": 224,
+        "flipX": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Hasta encontrarte",
+    "width": 3072,
+    "height": 400,
+    "palette": {
+      "sky": "#362B46",
+      "far": "#784B70",
+      "near": "#D4A1B3"
+    },
+    "spawn": {
+      "x": 64,
+      "feetY": 224,
+      "supportId": "p5-s0"
+    },
+    "checkpoint": {
+      "id": 1,
+      "x": 1536,
+      "feetY": 224,
+      "supportId": "p5-s1"
+    },
+    "goal": {
+      "kind": "ending",
+      "x": 2912,
+      "feetY": 224,
+      "width": 32,
+      "height": 48,
+      "supportId": "p5-s2"
+    },
+    "aaron": {
+      "x": 2992,
+      "feetY": 224
+    },
+    "surfaces": [
+      {
+        "id": "p5-s0",
+        "x": 0,
+        "y": 224,
+        "width": 896,
+        "height": 176
+      },
+      {
+        "id": "p5-s1",
+        "x": 928,
+        "y": 224,
+        "width": 1024,
+        "height": 176
+      },
+      {
+        "id": "p5-s2",
+        "x": 1984,
+        "y": 224,
+        "width": 1088,
+        "height": 176
+      }
+    ],
+    "environmentId": "level-5",
+    "decorations": [
+      {
+        "frame": "prop.bush",
+        "x": 224,
+        "feetY": 224,
+        "flipX": false
+      },
+      {
+        "frame": "prop.rock",
+        "x": 384,
+        "feetY": 224,
+        "flipX": false
+      },
+      {
+        "frame": "prop.tree",
+        "x": 384,
+        "feetY": 224,
+        "flipX": false
+      },
+      {
+        "frame": "prop.shrooms",
+        "x": 544,
+        "feetY": 224,
+        "flipX": false
+      },
+      {
+        "frame": "prop.bush",
+        "x": 704,
+        "feetY": 224,
+        "flipX": false
+      },
+      {
+        "frame": "prop.bush",
+        "x": 992,
+        "feetY": 224,
+        "flipX": false
+      },
+      {
+        "frame": "prop.rock",
+        "x": 1152,
+        "feetY": 224,
+        "flipX": false
+      },
+      {
+        "frame": "prop.shrooms",
+        "x": 1312,
+        "feetY": 224,
+        "flipX": false
+      },
+      {
+        "frame": "prop.tree",
+        "x": 1408,
+        "feetY": 224,
+        "flipX": false
+      },
+      {
+        "frame": "prop.rock",
+        "x": 1632,
+        "feetY": 224,
+        "flipX": false
+      },
+      {
+        "frame": "prop.shrooms",
+        "x": 1792,
+        "feetY": 224,
+        "flipX": false
+      },
+      {
+        "frame": "prop.rock",
+        "x": 2048,
+        "feetY": 224,
+        "flipX": false
+      },
+      {
+        "frame": "prop.shrooms",
+        "x": 2208,
+        "feetY": 224,
+        "flipX": false
+      },
+      {
+        "frame": "prop.bush",
+        "x": 2368,
+        "feetY": 224,
+        "flipX": false
+      },
+      {
+        "frame": "prop.tree",
+        "x": 2432,
+        "feetY": 224,
+        "flipX": false
+      },
+      {
+        "frame": "prop.rock",
+        "x": 2528,
+        "feetY": 224,
+        "flipX": false
+      },
+      {
+        "frame": "prop.shrooms",
+        "x": 2688,
+        "feetY": 224,
+        "flipX": false
+      },
+      {
+        "frame": "prop.sign",
+        "x": 2800,
+        "feetY": 224,
+        "flipX": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 1,
+  "referenceOnlyDirectory": "referencias",
+  "runtimeBase": "assets/",
+  "developmentPlaceholdersAllowed": true,
+  "releaseRequiresAllRequiredAssets": true,
+  "assets": [
+    {
+      "key": "auriana.idle",
+      "path": "sprites/auriana-zip-idle-right.png",
+      "type": "spritesheet",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "frames": 4,
+      "sheetWidth": 256,
+      "sheetHeight": 64,
+      "sourceFrames": [
+        "assets/Una_adorable_chica_chibi_en/Idle/animations/Breathing_Idle/east/frame_000.png",
+        "assets/Una_adorable_chica_chibi_en/Idle/animations/Breathing_Idle/east/frame_001.png",
+        "assets/Una_adorable_chica_chibi_en/Idle/animations/Breathing_Idle/east/frame_002.png",
+        "assets/Una_adorable_chica_chibi_en/Idle/animations/Breathing_Idle/east/frame_003.png"
+      ],
+      "sourceCrop": [
+        10,
+        7,
+        64,
+        64
+      ],
+      "sourceArchive": "assets/Una_adorable_chica_chibi_en.zip",
+      "requiredForRelease": true,
+      "ready": true,
+      "status": "integrated-imported"
+    },
+    {
+      "key": "auriana.run",
+      "path": "sprites/auriana-zip-run-right.png",
+      "type": "spritesheet",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "frames": 8,
+      "sheetWidth": 512,
+      "sheetHeight": 64,
+      "sourceFrames": [
+        "assets/Una_adorable_chica_chibi_en/Run/animations/Running/east/frame_000.png",
+        "assets/Una_adorable_chica_chibi_en/Run/animations/Running/east/frame_001.png",
+        "assets/Una_adorable_chica_chibi_en/Run/animations/Running/east/frame_002.png",
+        "assets/Una_adorable_chica_chibi_en/Run/animations/Running/east/frame_003.png",
+        "assets/Una_adorable_chica_chibi_en/Run/animations/Running/east/frame_004.png",
+        "assets/Una_adorable_chica_chibi_en/Run/animations/Running/east/frame_005.png",
+        "assets/Una_adorable_chica_chibi_en/Run/animations/Running/east/frame_006.png",
+        "assets/Una_adorable_chica_chibi_en/Run/animations/Running/east/frame_007.png"
+      ],
+      "sourceCrop": [
+        10,
+        10,
+        64,
+        64
+      ],
+      "sourceArchive": "assets/Una_adorable_chica_chibi_en.zip",
+      "requiredForRelease": true,
+      "ready": true,
+      "status": "integrated-imported"
+    },
+    {
+      "key": "auriana.air",
+      "path": "sprites/auriana-zip-air-right.png",
+      "type": "spritesheet",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "frames": 9,
+      "sheetWidth": 576,
+      "sheetHeight": 64,
+      "sourceFrames": [
+        "assets/Una_adorable_chica_chibi_en/Jumping/animations/Bend_knees_slightly_to_prepare_for_a_jump_then_pus/east/frame_000.png",
+        "assets/Una_adorable_chica_chibi_en/Jumping/animations/Bend_knees_slightly_to_prepare_for_a_jump_then_pus/east/frame_001.png",
+        "assets/Una_adorable_chica_chibi_en/Jumping/animations/Bend_knees_slightly_to_prepare_for_a_jump_then_pus/east/frame_002.png",
+        "assets/Una_adorable_chica_chibi_en/Jumping/animations/Bend_knees_slightly_to_prepare_for_a_jump_then_pus/east/frame_003.png",
+        "assets/Una_adorable_chica_chibi_en/Jumping/animations/Bend_knees_slightly_to_prepare_for_a_jump_then_pus/east/frame_004.png",
+        "assets/Una_adorable_chica_chibi_en/Jumping/animations/Bend_knees_slightly_to_prepare_for_a_jump_then_pus/east/frame_005.png",
+        "assets/Una_adorable_chica_chibi_en/Jumping/animations/Bend_knees_slightly_to_prepare_for_a_jump_then_pus/east/frame_006.png",
+        "assets/Una_adorable_chica_chibi_en/Jumping/animations/Bend_knees_slightly_to_prepare_for_a_jump_then_pus/east/frame_007.png",
+        "assets/Una_adorable_chica_chibi_en/Jumping/animations/Bend_knees_slightly_to_prepare_for_a_jump_then_pus/east/frame_008.png"
+      ],
+      "sourceCrop": [
+        0,
+        1,
+        64,
+        64
+      ],
+      "sourceArchive": "assets/Una_adorable_chica_chibi_en.zip",
+      "requiredForRelease": true,
+      "ready": true,
+      "status": "integrated-imported"
+    },
+    {
+      "key": "aaron.idle",
+      "path": "sprites/aaron-idle-left.png",
+      "type": "spritesheet",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "frames": 8,
+      "sheetWidth": 512,
+      "sheetHeight": 64,
+      "sourceFrames": [
+        "assets/Un_adorable_chico_chibi_en/Idle/animations/Idle/west/frame_000.png",
+        "assets/Un_adorable_chico_chibi_en/Idle/animations/Idle/west/frame_001.png",
+        "assets/Un_adorable_chico_chibi_en/Idle/animations/Idle/west/frame_002.png",
+        "assets/Un_adorable_chico_chibi_en/Idle/animations/Idle/west/frame_003.png",
+        "assets/Un_adorable_chico_chibi_en/Idle/animations/Idle/west/frame_004.png",
+        "assets/Un_adorable_chico_chibi_en/Idle/animations/Idle/west/frame_005.png",
+        "assets/Un_adorable_chico_chibi_en/Idle/animations/Idle/west/frame_006.png",
+        "assets/Un_adorable_chico_chibi_en/Idle/animations/Idle/west/frame_007.png"
+      ],
+      "sourceCrop": [10, 10, 64, 64],
+      "sourceArchive": "assets/Un_adorable_chico_chibi_en.zip",
+      "requiredForRelease": true,
+      "ready": true,
+      "status": "integrated-imported"
+    },
+    {
+      "key": "music.main",
+      "path": "audio/camino.mp3",
+      "type": "audio",
+      "maxBytes": 3000000,
+      "sourceManifest": "assets/audio/sources.json",
+      "requiredForRelease": true,
+      "ready": true,
+      "status": "integrated-imported"
+    },
+    {
+      "key": "environment.main",
+      "path": "environment/environment.png",
+      "dataPath": "environment/environment.json",
+      "type": "atlas",
+      "width": 1024,
+      "height": 1024,
+      "sourceManifest": "assets/vendor/environment/sources.json",
+      "license": "CC0-1.0",
+      "requiredForRelease": true,
+      "ready": true,
+      "status": "integrated-downloaded"
+    },
+    {
+      "key": "environment.title",
+      "path": "environment/title-scene.png",
+      "type": "image",
+      "usage": "dom",
+      "width": 480,
+      "height": 144,
+      "requiredForRelease": true,
+      "ready": true,
+      "status": "integrated-derived"
+    },
+    {
+      "key": "font.ui",
+      "path": "fonts/pixelify-sans.ttf",
+      "type": "font",
+      "usage": "dom",
+      "maxBytes": 200000,
+      "license": "OFL-1.1",
+      "sourceManifest": "assets/vendor/fonts/sources.json",
+      "requiredForRelease": true,
+      "ready": true,
+      "status": "integrated-downloaded"
+    }
+  ],
+  "generatedAtRuntime": [
+    "heart-8",
+    "ending-halo",
+    "sfx-jump",
+    "sfx-step",
+    "sfx-ending"
+  ]
+}

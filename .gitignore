@@ -1,0 +1,33 @@
+# Dependencias y compilacion local
+node_modules/
+/dist/
+.vite/
+.cache/
+
+# Evidencias y resultados generados
+/qa/
+/playwright-report/
+/test-results/
+/blob-report/
+/coverage/
+*.log
+
+# Entornos y caches de Python
+.venv*/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Configuracion personal y archivos temporales
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.tmp
+*.bak
+*.swp
