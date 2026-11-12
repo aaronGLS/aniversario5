@@ -31,7 +31,17 @@ excluye dependencias instaladas, compilaciones, entornos locales y los reportes 
 registrada en `docs/ESTADO.md`. Los recursos originales conservan sus bytes mediante
 `.gitattributes`.
 
-Para subir la rama `main` a un repositorio vacío, sustituye `URL_DEL_REPOSITORIO`:
+El flujo `.github/workflows/deploy-pages.yml` compila y publica el juego al subir
+cambios a `main`; también admite ejecución manual en Actions. Usa Node 22,
+`npm ci` y `npm run build:pages`, que valida los recursos y genera `dist/` en modo
+producción sin ejecutar la batería completa de pruebas.
+
+En GitHub, selecciona **Settings → Pages → Source → GitHub Actions** una vez.
+Después sube los cambios con `git push` y consulta la ejecución en **Actions**.
+El enlace esperado de este repositorio es https://aarongls.github.io/aniversario5/.
+La base relativa de Vite permite cargar los recursos desde esa subcarpeta.
+
+Si todavía no existe el remoto, sustituye `URL_DEL_REPOSITORIO`:
 
 ```sh
 git remote add origin URL_DEL_REPOSITORIO

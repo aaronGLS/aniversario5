@@ -12,6 +12,7 @@
     "check:design": "node scripts/validar-diseno.mjs",
     "check:assets": "node scripts/validar-diseno.mjs --release",
     "build:prototype": "vite build --mode prototype",
+    "build:pages": "npm run check:assets && vite build",
     "build": "npm run check:assets && npm test && vite build",
     "preview": "vite preview --host 127.0.0.1",
     "test:browser": "playwright test"

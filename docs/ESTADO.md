@@ -1,5 +1,32 @@
 # Estado del proyecto
 
+## Configuración de GitHub Pages — 11 de noviembre de 2026
+
+TASK_KIND: CHANGE; RISK_LEVEL: R3; STATUS: DONE_WITH_WARNINGS.
+
+- Añadido `.github/workflows/deploy-pages.yml`: push a `main` y ejecución manual,
+  Node 22, `npm ci`, validación de recursos y compilación de producción. Solo se
+  sube `dist/`; publicar depende de compilar correctamente y requiere la rama `main`.
+- La compilación dispone de lectura del código y la publicación de `pages:write`
+  e `id-token:write`, en el entorno `github-pages`. Acciones fijadas por commit,
+  checkout sin credenciales persistidas y publicaciones sin solaparse.
+- Nuevo `npm run build:pages`, que conserva el gate de recursos y no ejecuta el
+  banco completo. Los scripts anteriores, dependencias, lockfile, juego, recursos
+  y base relativa de Vite permanecen sin cambios.
+- Verificado: parser YAML y contratos del workflow PASS; `git diff --check` PASS;
+  `npm run build:pages` PASS, incluidos 482 checks de recursos y el build de producción.
+  Continúa el aviso habitual por el tamaño del bundle de Phaser.
+- Prueba específica de Chromium sobre el build de producción en `/aniversario5/`:
+  PASS. Inicio, canvas y pausa funcionan; música solicitada correctamente, sin
+  errores de consola/red ni rutas fuera de la subcarpeta. La etiqueta de prototipo
+  y la interfaz de diagnóstico no aparecen en producción.
+- Revisión independiente de flujo, permisos, rama y artefacto: PASS, sin hallazgos.
+  No se ejecutó el banco completo ni se afirma despliegue remoto completado.
+
+Siguiente paso: subir el commit a GitHub, seleccionar **Settings → Pages → Source →
+GitHub Actions** y comprobar la ejecución en Actions. README y docs/07 describen el
+proceso. La escucha manual, los SFX y la QA final del juego siguen pendientes.
+
 ## Preparación de GitHub — 11 de noviembre de 2026
 
 TASK_KIND: CHANGE; RISK_LEVEL: R1; STATUS: PARTIAL; EXPORT_READY: YES; CLEANUP: PARTIAL.

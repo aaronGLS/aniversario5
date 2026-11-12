@@ -31,6 +31,18 @@ y la diferencia entre dev, prototype y release.
 
 ## Web compartible
 
+GitHub Pages está configurado en `.github/workflows/deploy-pages.yml`: push a `main`
+o ejecución manual, instalación con lockfile en Node 22, `npm run build:pages` y
+publicación exclusiva de `dist/`. El job de compilación tiene lectura del código;
+el de publicación recibe `pages:write` e `id-token:write`, depende de la compilación
+y solo publica desde `main`, en el entorno `github-pages`. Las acciones están fijadas
+por commit y una sola publicación se ejecuta cada vez.
+`build:pages` conserva el gate de recursos y compila en producción sin invocar
+el banco completo. `build` sigue siendo el chequeo de entrega más amplio.
+Hay que seleccionar **Settings → Pages → Source → GitHub Actions** en GitHub y
+subir este workflow. El resultado remoto se consulta en Actions y Pages; la
+verificación local no demuestra que el despliegue remoto ya haya terminado.
+
 Salida dist/ de Vite, con base './', sin router ni endpoints [S5].
 Un sitio HTTPS estático sirve index.html, el bundle y assets desde la misma base.
 Comprobar también en /regalo/ o subcarpeta similar, no solo en localhost/.
